@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABCs</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
   </head>
   <body>
     <header>
@@ -16,24 +17,24 @@
         features of the corresponding letters
       </p>
     </aside>
-    <main>
+    <main class="hiders">
       <div class="imgs" id="leftDiv">
-        <img src="./img/css-letter-a.png" alt="A image" />
-        <button id="hideA">Hide Result</button>
+        <img id="A" src="./img/css-letter-a.png" alt="A image" />
+        <button class="hide" value="hideA">Hide Result</button>
       </div>
       <div class="imgs">
-        <img src="./img/css-letter-b.png" alt="B image" />
-        <button id="hideB">Hide Result</button>
+        <img id="B" src="./img/css-letter-b.png" alt="B image" />
+        <button class="hide" value="hideB">Hide Result</button>
       </div>
       <div class="imgs" id="rightDiv">
-        <img src="./img/css-letter-c.png" alt="C image" />
-        <button id="hideC">Hide Result</button>
+        <img id="C" src="./img/css-letter-c.png" alt="C image" />
+        <button class="hide" value="hideC">Hide Result</button>
       </div>
     </main>
     <div class="buttons">
-      <button id="showA">A</button>
-      <button id="showB">B</button>
-      <button id="showC">C</button>
+      <button class="show" value="showA">A</button>
+      <button class="show" value="showB">B</button>
+      <button class="show" value="showC">C</button>
     </div>
   </body>
 </html>

@@ -44,6 +44,7 @@ main {
 main img {
   width: 100%;
   border: none;
+  padding: -2px;
 }
 
 .imgs {
@@ -52,14 +53,14 @@ main img {
 }
 
 #leftDiv {
-  margin-left: 10px;
+  margin-left: 2vw;
 }
 
 #rightDiv {
-  margin-right: 4px;
+  margin-right: 1vw;
 }
 
-.imgs button {
+.imgs .hide {
   border: none;
   width: 75%;
   margin-bottom: 6px;
