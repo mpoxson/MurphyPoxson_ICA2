@@ -1,7 +1,8 @@
 const hideButtons = document.querySelector(".hiders");
-const A = document.querySelector("#A");
-const B = document.querySelector("#B");
-const C = document.querySelector("#C");
+const A = document.querySelector("#leftDiv");
+const B = document.querySelector("#centerDiv");
+
+const C = document.querySelector("#rightDiv");
 hideButtons.addEventListener("click", (e) => {
   const { target } = e;
   const { value } = target;
