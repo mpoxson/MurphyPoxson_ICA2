@@ -70,7 +70,7 @@ main img {
 
 .buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: none;
   margin-top: 9px;
   margin-bottom: 20px;
@@ -80,4 +80,12 @@ main img {
   width: 15vh;
   height: 40px;
   background-color: white;
+}
+
+#buttonLeft {
+  margin-left: 8vw;
+}
+
+#buttonRight {
+  margin-right: 7vw;
 }
